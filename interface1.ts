@@ -1,4 +1,5 @@
-// Cas d'utilisation 2
+
+// Déclaration interface Addition
 interface Addition {
       (a: number, b: number): number;
 }

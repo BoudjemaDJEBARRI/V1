@@ -10,7 +10,7 @@ interface Personne {
 const personne: Personne = {
       nom: "Steve Jobs",
       age: 30,
-      adresse: "10 rue de la Paix",
+      adresse: "10 rue de la Liberté",
       saluer() {
             console.log(`Bonjour, je m'appelle ${this.nom} et j'ai ${this.age} ans.`);
       },
