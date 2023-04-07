@@ -9,3 +9,5 @@ interface MonInterface {
       attribut: string | number;
       propriete: { nom: string } & { age: number };
     }
+
+
