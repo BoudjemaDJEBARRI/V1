@@ -6,8 +6,18 @@ type Utilisateur = {
       adresse?: string;
       saluer(): void;
     }
+    
 
-// Création d'un objet qui implémente l'alias utilisateur
+// Déclaration d’une interface
+interface Personne {
+      nom: string;
+      age: number;
+      adresse?: string;
+      saluer(): void;
+}
+
+
+// Création d'un objet  
 const utilisateur: Utilisateur = {
       nom: "Steve Wozniak",
       age: 31,
@@ -17,13 +27,13 @@ const utilisateur: Utilisateur = {
       },
 };
 
-// Appel de la méthode "saluer" de l'objet "utilisateur"
-utilisateur.saluer(); // affiche "Bonjour, je m'appelle Steve Wozniak et j'ai 31 ans."
+// Appel de la méthode 
+utilisateur.saluer();  
 
-// Définition d'une fonction qui prend en paramètre un objet de type Personne
+// Définition d'une fonction  
 function saluerUtilisateur(utilisateur: Utilisateur) {
       console.log(`Bonjour ${utilisateur.nom} !`);
 }
 
-// Appel de la fonction "saluerUtilisateur" avec l'objet "Utilisateur" comme argument
-saluerUtilisateur(utilisateur); // Bonjour Steve Wozniak !
+// Appel de la fonction  
+saluerUtilisateur(utilisateur); 

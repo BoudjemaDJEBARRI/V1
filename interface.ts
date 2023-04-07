@@ -1,3 +1,4 @@
+
 // Déclaration d’une interface
 interface Personne {
       nom: string;
@@ -6,7 +7,18 @@ interface Personne {
       saluer(): void;
 }
 
-// Création d'un objet qui implémente l'interface Personne
+
+
+
+
+
+
+
+
+
+
+
+// Création d'un objet  
 const personne: Personne = {
       nom: "Steve Jobs",
       age: 30,
@@ -16,14 +28,14 @@ const personne: Personne = {
       },
 };
 
-// Appel de la méthode "saluer" de l'objet "personne"
-personne.saluer(); // affiche "Bonjour, je m'appelle Steve Jobs et j'ai 30 ans."
+// Appel de la méthode  
+personne.saluer();  
 
-// Définition d'une fonction qui prend en paramètre un objet de type Personne
+// Définition d'une fonction 
 function saluerPersonne(personne: Personne) {
       console.log(`Bonjour ${personne.nom} !`);
 }
 
-// Appel de la fonction "saluerPersonne" avec l'objet "personne" comme argument
+// Appel de la fonction 
 saluerPersonne(personne); // Bonjour Steve Jobs !
 
