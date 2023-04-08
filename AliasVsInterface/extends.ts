@@ -1,5 +1,4 @@
 // Les interfaces peuvent être étendues 
-
 interface Animal {
       nom: string;
       age: number;

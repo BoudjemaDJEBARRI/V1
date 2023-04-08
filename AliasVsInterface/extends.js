@@ -1,5 +1,4 @@
 "use strict";
-// Les interfaces peuvent être étendues 
 const monChien = {
     nom: "Rex",
     age: 3,

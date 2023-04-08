@@ -1,4 +1,11 @@
 "use strict";
+// // Déclaration d’Alias de type
+// type Utilisateur = {
+//       nom: string;
+//       age: number;
+//       adresse?: string;
+//       saluer(): void;
+//     }
 // Création d'un objet  
 const utilisateur = {
     nom: "Steve Wozniak",
