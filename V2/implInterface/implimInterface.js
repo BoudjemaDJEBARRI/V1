@@ -1,5 +1,5 @@
 "use strict";
-class Personne {
+class Person {
     constructor(nom, age) {
         this.nom = nom;
         this.age = age;
@@ -8,5 +8,5 @@ class Personne {
         console.log(`Je m'appelle ${this.nom} et j'ai ${this.age} ans.`);
     }
 }
-const personne1 = new Personne("Jean", 30);
+const person1 = new Person("Jean", 30);
 personne1.sePresenter(); // affiche "Je m'appelle Jean et j'ai 30 ans."

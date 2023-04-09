@@ -1,10 +1,11 @@
+
 interface IPersonne {
       nom: string;
       age: number;
       sePresenter(): void;
 }
 
-class Personne implements IPersonne {
+class Person implements IPersonne {
       nom: string;
       age: number;
 
@@ -18,5 +19,5 @@ class Personne implements IPersonne {
       }
 }
 
-const personne1: IPersonne = new Personne("Jean", 30);
+const person1: IPersonne = new Person("Jean", 30);
 personne1.sePresenter(); // affiche "Je m'appelle Jean et j'ai 30 ans."

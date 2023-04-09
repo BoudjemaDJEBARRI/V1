@@ -2,11 +2,11 @@
 //Création de classe 
 class Animal {
       nom: string;
-      age: number;
+      age : number;
 
       constructor(nom: string, age: number) {
             this.nom = nom;
-            this.age = age;
+            this.age = age; 
       }
 
       parler(): void {
