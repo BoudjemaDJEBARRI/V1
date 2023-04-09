@@ -1,5 +1,5 @@
 
-
+//Création de classe 
 class Animal {
       nom: string;
       age: number;
@@ -10,9 +10,11 @@ class Animal {
       }
 
       parler(): void {
-            console.log(`${this.nom} parle`);
+            console.log(`${this.nom} miaule`);
       }
 }
 
+// Instanciation
 const chat = new Animal('Minou', 2);
-chat.parler(); // affiche "Minou parle"
+
+chat.parler(); // affiche "Minou miaule"
