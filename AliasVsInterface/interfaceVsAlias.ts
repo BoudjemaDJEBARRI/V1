@@ -8,7 +8,7 @@ type Utilisateur = {
 }
 
 // Déclaration d’une interface
-interface Personne {
+interface Personne2 {
   nom: string;
   age: number;
   adresse?: string;

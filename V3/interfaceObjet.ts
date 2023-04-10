@@ -1,11 +1,13 @@
-interface Personne {
+
+// Définir la structure d'objet en utilisant une interface
+interface Personnes {
       nom: string;
       age: number;
       sePresenter(): void;
       saluer(): void;  
 }
 
-const personne5: Personne = {
+const personne5: Personnes = {
       nom: "Elon",
       age: 30,
       sePresenter() {

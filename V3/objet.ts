@@ -8,8 +8,6 @@ const voiture = {
 };
 
 
-
-
 // Déclaration d'objets avec spécification de type
 const voiture2 : { 
       marque : string, 

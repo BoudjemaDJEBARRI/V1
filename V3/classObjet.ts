@@ -1,3 +1,5 @@
+
+// Création d'objets à partir d'une Classe
 class Personne {
       nom: string;
       age: number;

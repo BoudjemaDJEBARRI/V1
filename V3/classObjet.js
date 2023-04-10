@@ -1,4 +1,5 @@
 "use strict";
+// Création d'objets à partir d'une Classe
 class Personne {
     constructor(nom, age) {
         this.nom = nom;

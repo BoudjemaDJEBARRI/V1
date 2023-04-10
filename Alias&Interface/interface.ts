@@ -1,6 +1,6 @@
 
 // Déclaration d’une interface
-interface Personne {
+interface Personne1 {
       nom: string;
       age: number;
       adresse?: string;
