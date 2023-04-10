@@ -1,6 +1,6 @@
 "use strict";
 // Classe parent
-class Personne {
+class Personne1 {
     constructor(nom, age) {
         this.nom = nom;
         this.age = age;
@@ -10,7 +10,7 @@ class Personne {
     }
 }
 // Classe fille
-class Employe extends Personne {
+class Employe extends Personne1 {
     constructor(nom, age, poste) {
         super(nom, age);
         this.poste = poste;

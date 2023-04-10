@@ -1,5 +1,5 @@
 // Classe parent
-class Personne {
+class Personne1 {
       nom: string;
       age: number;
 
@@ -14,7 +14,7 @@ class Personne {
 }
 
 // Classe fille
-class Employe extends Personne {
+class Employe extends Personne1 {
       poste: string;
 
       constructor(nom: string, age: number, poste: string) {
